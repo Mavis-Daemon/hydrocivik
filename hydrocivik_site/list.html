@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music list - Hydrocivik</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- google font AudioWide, Oxanium -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--*----------------Top bar------------------>
+    <header class="top_bar">
+        <div class="top_bar_container">
+            <p id="insctruction">Select music</p>
+        </div>
+    </header>
+    <!--*----------------Content------------------>
+    <section class="selected_song_detail">
+        <div class="cover_container">
+            <img src="https://res.cloudinary.com/dpzwk2l36/image/upload/v1772712397/7-bite_y04ejf.webp" alt="" id="song_cover">
+            <div class="song_title">
+                <h1 id="song_name">7-Bite</h1>
+                <p id="author">Hydrocivik</p>
+                <time datetime="2022">2022</time>
+            </div> 
+        </div>
+        <audio src=""></audio>
+    </section>
+    <section class="content_list">
+        <ul class="song_list"></ul>
+    </section>
+    <section class="phone_warning">
+        <h3 id="warning">Please open website on landscape mode</h3>
+        <div id="phone_animate"></div>
+    </section>
+    <!--*----------------Nav button------------------>
+    <nav class="nav_button">
+        <div class="nav_button_container">
+            <a href="home.html" class="button">
+                <div class="button_container">
+                    <p class="button_text">Home Page</p>
+                </div>
+            </a>
+        </div>
+    </nav>
+    
+    <script src="app.js"></script>
+</body>
+</html>
